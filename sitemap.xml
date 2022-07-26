@@ -74,27 +74,6 @@
 
   
   <url>
-    <loc>https://sun_zjh.gitee.io/sun/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
-    <lastmod>2022-07-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://sun_zjh.gitee.io/sun/tags/%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2022-07-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://sun_zjh.gitee.io/sun/tags/%E8%80%83%E7%A0%94/</loc>
-    <lastmod>2022-07-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://sun_zjh.gitee.io/sun/tags/%E8%A5%BF%E9%97%A8%E5%AD%90/</loc>
     <lastmod>2022-07-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -115,17 +94,38 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://sun_zjh.gitee.io/sun/categories/%E6%95%B0%E5%AD%A6/</loc>
+    <loc>https://sun_zjh.gitee.io/sun/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
     <lastmod>2022-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
+    <loc>https://sun_zjh.gitee.io/sun/tags/%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2022-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sun_zjh.gitee.io/sun/tags/%E8%80%83%E7%A0%94/</loc>
+    <lastmod>2022-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
     <loc>https://sun_zjh.gitee.io/sun/categories/PLC/</loc>
+    <lastmod>2022-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sun_zjh.gitee.io/sun/categories/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2022-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
