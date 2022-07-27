@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.blogsun.top/2022/07/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
+    <loc>https://sun_zjh.gitee.io/sun/2022/07/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
     
     <lastmod>2022-07-26</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/link/index.html</loc>
+    <loc>https://sun_zjh.gitee.io/sun/link/index.html</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/categories/index.html</loc>
+    <loc>https://sun_zjh.gitee.io/sun/categories/index.html</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/tags/index.html</loc>
+    <loc>https://sun_zjh.gitee.io/sun/tags/index.html</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/2022/07/18/%E8%A5%BF%E9%97%A8%E5%AD%90200SMART%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://sun_zjh.gitee.io/sun/2022/07/18/%E8%A5%BF%E9%97%A8%E5%AD%90200SMART%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/movies/index.html</loc>
+    <loc>https://sun_zjh.gitee.io/sun/movies/index.html</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/music/index.html</loc>
+    <loc>https://sun_zjh.gitee.io/sun/music/index.html</loc>
     
     <lastmod>2022-07-25</lastmod>
     
@@ -66,7 +66,7 @@
   
 
   <url>
-    <loc>https://www.blogsun.top/</loc>
+    <loc>https://sun_zjh.gitee.io/sun</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -74,42 +74,42 @@
 
   
   <url>
-    <loc>https://www.blogsun.top/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
+    <loc>https://sun_zjh.gitee.io/sun/tags/%E8%A5%BF%E9%97%A8%E5%AD%90/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/tags/%E6%95%B0%E5%AD%A6/</loc>
+    <loc>https://sun_zjh.gitee.io/sun/tags/PLC/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/tags/%E8%80%83%E7%A0%94/</loc>
+    <loc>https://sun_zjh.gitee.io/sun/tags/SMART/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/tags/%E8%A5%BF%E9%97%A8%E5%AD%90/</loc>
+    <loc>https://sun_zjh.gitee.io/sun/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/tags/PLC/</loc>
+    <loc>https://sun_zjh.gitee.io/sun/tags/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/tags/SMART/</loc>
+    <loc>https://sun_zjh.gitee.io/sun/tags/%E8%80%83%E7%A0%94/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -118,14 +118,14 @@
 
   
   <url>
-    <loc>https://www.blogsun.top/categories/%E6%95%B0%E5%AD%A6/</loc>
+    <loc>https://sun_zjh.gitee.io/sun/categories/PLC/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/categories/PLC/</loc>
+    <loc>https://sun_zjh.gitee.io/sun/categories/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
