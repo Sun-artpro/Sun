@@ -3,11 +3,11 @@
   <title>Sun&#39;s Blog</title>
   
   
-  <link href="https://sun-artpro.github.io/sun/atom.xml" rel="self"/>
+  <link href="https://sun-artpro.github.io/Sun/atom.xml" rel="self"/>
   
-  <link href="https://sun-artpro.github.io/sun/"/>
+  <link href="https://sun-artpro.github.io/Sun/"/>
   <updated>2022-07-28T03:32:26.132Z</updated>
-  <id>https://sun-artpro.github.io/sun/</id>
+  <id>https://sun-artpro.github.io/Sun/</id>
   
   <author>
     <name>Sun</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>线性代数</title>
-    <link href="https://sun-artpro.github.io/sun/2022/07/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
-    <id>https://sun-artpro.github.io/sun/2022/07/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</id>
+    <link href="https://sun-artpro.github.io/Sun/2022/07/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    <id>https://sun-artpro.github.io/Sun/2022/07/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</id>
     <published>2022-07-18T12:37:35.000Z</published>
     <updated>2022-07-28T03:32:26.132Z</updated>
     
@@ -30,21 +30,21 @@
     
     
     
-    <category term="数学" scheme="https://sun-artpro.github.io/sun/categories/%E6%95%B0%E5%AD%A6/"/>
+    <category term="数学" scheme="https://sun-artpro.github.io/Sun/categories/%E6%95%B0%E5%AD%A6/"/>
     
     
-    <category term="线性代数" scheme="https://sun-artpro.github.io/sun/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    <category term="线性代数" scheme="https://sun-artpro.github.io/Sun/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
     
-    <category term="数学" scheme="https://sun-artpro.github.io/sun/tags/%E6%95%B0%E5%AD%A6/"/>
+    <category term="数学" scheme="https://sun-artpro.github.io/Sun/tags/%E6%95%B0%E5%AD%A6/"/>
     
-    <category term="考研" scheme="https://sun-artpro.github.io/sun/tags/%E8%80%83%E7%A0%94/"/>
+    <category term="考研" scheme="https://sun-artpro.github.io/Sun/tags/%E8%80%83%E7%A0%94/"/>
     
   </entry>
   
   <entry>
     <title>西门子200SMART学习笔记</title>
-    <link href="https://sun-artpro.github.io/sun/2022/07/18/%E8%A5%BF%E9%97%A8%E5%AD%90200SMART%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>https://sun-artpro.github.io/sun/2022/07/18/%E8%A5%BF%E9%97%A8%E5%AD%90200SMART%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <link href="https://sun-artpro.github.io/Sun/2022/07/18/%E8%A5%BF%E9%97%A8%E5%AD%90200SMART%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://sun-artpro.github.io/Sun/2022/07/18/%E8%A5%BF%E9%97%A8%E5%AD%90200SMART%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
     <published>2022-07-18T12:37:35.000Z</published>
     <updated>2022-07-25T12:04:15.232Z</updated>
     
@@ -55,14 +55,14 @@
     
     
     
-    <category term="PLC" scheme="https://sun-artpro.github.io/sun/categories/PLC/"/>
+    <category term="PLC" scheme="https://sun-artpro.github.io/Sun/categories/PLC/"/>
     
     
-    <category term="西门子" scheme="https://sun-artpro.github.io/sun/tags/%E8%A5%BF%E9%97%A8%E5%AD%90/"/>
+    <category term="西门子" scheme="https://sun-artpro.github.io/Sun/tags/%E8%A5%BF%E9%97%A8%E5%AD%90/"/>
     
-    <category term="PLC" scheme="https://sun-artpro.github.io/sun/tags/PLC/"/>
+    <category term="PLC" scheme="https://sun-artpro.github.io/Sun/tags/PLC/"/>
     
-    <category term="SMART" scheme="https://sun-artpro.github.io/sun/tags/SMART/"/>
+    <category term="SMART" scheme="https://sun-artpro.github.io/Sun/tags/SMART/"/>
     
   </entry>
   
