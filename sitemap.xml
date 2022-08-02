@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.blogsun.top/2022/08/02/Chart%E6%8E%A7%E4%BB%B6/</loc>
+    
+    <lastmod>2022-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.blogsun.top/2022/07/18/%E8%A5%BF%E9%97%A8%E5%AD%90200SMART%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2022-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.blogsun.top/2022/07/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
     
     <lastmod>2022-07-31</lastmod>
@@ -21,15 +39,6 @@
   
   <url>
     <loc>https://www.blogsun.top/movies/index.html</loc>
-    
-    <lastmod>2022-07-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.blogsun.top/2022/07/18/%E8%A5%BF%E9%97%A8%E5%AD%90200SMART%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2022-07-29</lastmod>
     
@@ -67,50 +76,71 @@
 
   <url>
     <loc>https://www.blogsun.top/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.blogsun.top/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <loc>https://www.blogsun.top/tags/C/</loc>
+    <lastmod>2022-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/tags/%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <loc>https://www.blogsun.top/tags/winframe/</loc>
+    <lastmod>2022-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.blogsun.top/tags/%E8%80%83%E7%A0%94/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <loc>https://www.blogsun.top/tags/%E6%8E%A7%E4%BB%B6/</loc>
+    <lastmod>2022-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blogsun.top/tags/%E8%A5%BF%E9%97%A8%E5%AD%90/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blogsun.top/tags/PLC/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blogsun.top/tags/SMART/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.blogsun.top/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
+    <lastmod>2022-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.blogsun.top/tags/%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2022-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.blogsun.top/tags/%E8%80%83%E7%A0%94/</loc>
+    <lastmod>2022-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -118,15 +148,22 @@
 
   
   <url>
-    <loc>https://www.blogsun.top/categories/%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <loc>https://www.blogsun.top/categories/C/</loc>
+    <lastmod>2022-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.blogsun.top/categories/PLC/</loc>
-    <lastmod>2022-07-31</lastmod>
+    <lastmod>2022-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.blogsun.top/categories/%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2022-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
