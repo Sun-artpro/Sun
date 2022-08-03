@@ -6,7 +6,7 @@
   <link href="https://www.blogsun.top/atom.xml" rel="self"/>
   
   <link href="https://www.blogsun.top/"/>
-  <updated>2022-08-02T13:30:05.436Z</updated>
+  <updated>2022-08-03T13:04:07.329Z</updated>
   <id>https://www.blogsun.top/</id>
   
   <author>
@@ -17,13 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>应用程序开发思路</title>
+    <link href="https://www.blogsun.top/2022/08/03/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E6%80%9D%E8%B7%AF/"/>
+    <id>https://www.blogsun.top/2022/08/03/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E6%80%9D%E8%B7%AF/</id>
+    <published>2022-08-03T12:25:35.000Z</published>
+    <updated>2022-08-03T13:04:07.329Z</updated>
+    
+    <content type="html"><![CDATA[<h1>总体的发开思路</h1><p><strong>C# winform 开发</strong></p><ol><li>分析需求</li><li>设计界面UI</li><li>代码编写</li><li>调试测试</li><li>打包发布</li></ol><h2 id="控件的基本使用">控件的基本使用</h2><blockquote><p>所有的控件都是对象，每个控件都有自己的属性和方法，每个控件都有自己的事件，每个控件都有自己的状态</p></blockquote><h4 id="分类">分类</h4><ul><li>公共控件</li><li>容器</li><li>菜单工具栏</li><li>…</li><li>组件</li><li>数据<ul><li>连接数据库</li><li>可视化</li></ul></li></ul><h4 id="控件的基本使用-2">控件的基本使用</h4><ul><li>控件的属性(属性对话框) ==&gt; 选中对应的控件，查看属性<ul><li>名称、大小、坐标、文本、图片、状态、样式、其他</li></ul></li></ul><h2 id="Form窗体控制">Form窗体控制</h2><h2 id="…敬请期待…-2">…敬请期待…</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;总体的发开思路&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;C# winform 开发&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;分析需求&lt;/li&gt;
+&lt;li&gt;设计界面UI&lt;/li&gt;
+&lt;li&gt;代码编写&lt;/li&gt;
+&lt;li&gt;调试测试&lt;/li&gt;
+&lt;li&gt;打包发布&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h</summary>
+      
+    
+    
+    
+    <category term="C#" scheme="https://www.blogsun.top/categories/C/"/>
+    
+    
+    <category term="C#" scheme="https://www.blogsun.top/tags/C/"/>
+    
+    <category term="winframe" scheme="https://www.blogsun.top/tags/winframe/"/>
+    
+    <category term="控件" scheme="https://www.blogsun.top/tags/%E6%8E%A7%E4%BB%B6/"/>
+    
+    <category term="上位机" scheme="https://www.blogsun.top/tags/%E4%B8%8A%E4%BD%8D%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Chart控件</title>
     <link href="https://www.blogsun.top/2022/08/02/Chart%E6%8E%A7%E4%BB%B6/"/>
     <id>https://www.blogsun.top/2022/08/02/Chart%E6%8E%A7%E4%BB%B6/</id>
     <published>2022-08-02T13:06:35.000Z</published>
-    <updated>2022-08-02T13:30:05.436Z</updated>
+    <updated>2022-08-03T02:50:07.189Z</updated>
     
-    <content type="html"><![CDATA[<h1>Chart控件</h1><h2 id="知识点">知识点</h2><ol><li>掌握tablelayoutpanel布局</li><li>掌握chart控件的配置（柱状图、折线图、饼图、雷达图等图形的配置、坐标点的配置等等）</li><li>掌握使用代码传入输入到图表</li><li>掌握实例化坐标点的方式传入数据</li><li>理解多个不同控件的的数据传入运用</li><li>多图形数据批量传入开发<ol><li>找到多个图表控件的规律</li><li>使用for循环进行批量运行代码</li><li>通过大控件的find()方法来寻找子控件的方式，注意find( , true)第二个参数要为true才能寻找控件中中的子控件</li><li>将找到的控件进行类型转化</li></ol></li></ol><h2 id="…敬请期待…">…敬请期待…</h2><h2 id="示例图">示例图</h2><p><img src="/img/9.png" alt="2"></p>]]></content>
+    <content type="html"><![CDATA[<h1>Chart控件</h1><h2 id="知识点">知识点</h2><ol><li>掌握tablelayoutpanel布局</li><li>掌握chart控件的配置（柱状图、折线图、饼图、雷达图等图形的配置、坐标点的配置等等）</li><li>掌握使用代码传入输入到图表</li><li>掌握实例化坐标点的方式传入数据</li><li>理解多个不同控件的的数据传入运用</li><li>多图形数据批量传入开发<ol><li>找到多个图表控件的规律</li><li>使用for循环进行批量运行代码</li><li>通过大控件的find()方法来寻找子控件的方式，注意find( , true)第二个参数要为true才能寻找控件中中的子控件</li><li>将找到的控件进行类型</li></ol></li></ol><h4 id="代码示例">代码示例</h4><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">timer1_Tick</span>(<span class="params"><span class="built_in">object</span> sender, EventArgs e</span>)</span></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">if</span> (chart2.Series[<span class="number">0</span>].Points.Count == <span class="number">10</span>)</span><br><span class="line">   &#123;</span><br><span class="line">    chart2.Series[<span class="number">0</span>].Points.RemoveAt(<span class="number">0</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   Random random = <span class="keyword">new</span> Random();</span><br><span class="line">   chart2.Series[<span class="number">0</span>].Points.Add(random.Next(<span class="number">0</span>, <span class="number">101</span>));</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="…敬请期待…">…敬请期待…</h2><h2 id="示例图">示例图</h2><p><img src="/img/9.png" alt="2"></p>]]></content>
     
     
       

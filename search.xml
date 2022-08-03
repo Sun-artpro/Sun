@@ -1,288 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Chart控件</title>
-    <url>/2022/08/02/Chart%E6%8E%A7%E4%BB%B6/</url>
-    <content><![CDATA[<h1>Chart控件</h1>
-<h2 id="知识点">知识点</h2>
-<ol>
-<li>掌握tablelayoutpanel布局</li>
-<li>掌握chart控件的配置（柱状图、折线图、饼图、雷达图等图形的配置、坐标点的配置等等）</li>
-<li>掌握使用代码传入输入到图表</li>
-<li>掌握实例化坐标点的方式传入数据</li>
-<li>理解多个不同控件的的数据传入运用</li>
-<li>多图形数据批量传入开发
-<ol>
-<li>找到多个图表控件的规律</li>
-<li>使用for循环进行批量运行代码</li>
-<li>通过大控件的find()方法来寻找子控件的方式，注意find( , true)第二个参数要为true才能寻找控件中中的子控件</li>
-<li>将找到的控件进行类型转化</li>
-</ol>
-</li>
-</ol>
-<h2 id="…敬请期待…">…敬请期待…</h2>
-<h2 id="示例图">示例图</h2>
-<p><img src="/img/9.png" alt="2"></p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>应用程序开发思路</title>
+      <link href="/2022/08/03/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E6%80%9D%E8%B7%AF/"/>
+      <url>/2022/08/03/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E6%80%9D%E8%B7%AF/</url>
+      
+        <content type="html"><![CDATA[<h1>总体的发开思路</h1><p><strong>C# winform 开发</strong></p><ol><li>分析需求</li><li>设计界面UI</li><li>代码编写</li><li>调试测试</li><li>打包发布</li></ol><h2 id="控件的基本使用">控件的基本使用</h2><blockquote><p>所有的控件都是对象，每个控件都有自己的属性和方法，每个控件都有自己的事件，每个控件都有自己的状态</p></blockquote><h4 id="分类">分类</h4><ul><li>公共控件</li><li>容器</li><li>菜单工具栏</li><li>…</li><li>组件</li><li>数据<ul><li>连接数据库</li><li>可视化</li></ul></li></ul><h4 id="控件的基本使用-2">控件的基本使用</h4><ul><li>控件的属性(属性对话框) ==&gt; 选中对应的控件，查看属性<ul><li>名称、大小、坐标、文本、图片、状态、样式、其他</li></ul></li></ul><h2 id="Form窗体控制">Form窗体控制</h2><h2 id="…敬请期待…-2">…敬请期待…</h2>]]></content>
+      
+      
       <categories>
-        <category>C#</category>
+          
+          <category> C# </category>
+          
       </categories>
-      <tags>
-        <tag>C#</tag>
-        <tag>winframe</tag>
-        <tag>控件</tag>
-        <tag>上位机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>线性代数</title>
-    <url>/2022/07/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
-    <content><![CDATA[<h1>第一章 行列式</h1>
-<h2 id="二阶三阶行列式">二阶三阶行列式</h2>
-<ol>
-<li>
-<p>排列: 由 1 2 2 .。。。。n 组成的排列</p>
-</li>
-<li>
-<p>逆序</p>
-<ol>
-<li>逆序数  -&gt; 逆序得总数</li>
-</ol>
-</li>
-<li>
-<p>对换：交换两个数</p>
-<blockquote>
-<ul>
-<li>注: 一个排列经过一次对换奇偶性会改变    eg: 1 2 3 4 5 6 7 8 9 10 -&gt; 1 3 2 4 5 6 7 8 9 10</li>
-<li>n级排列 奇偶个数各占一半</li>
-</ul>
-</blockquote>
-</li>
-</ol>
-<h2 id="n阶行列式">n阶行列式</h2>
-<ol>
-<li>
-<ul>
-<li>第一种定义 -&gt; 按列展开 ==&gt;行标取标准排列，列标取排列的所有可能，从不同行不同列取出n个元素相乘，符号规定如下：</li>
-</ul>
-<blockquote>
-<ul>
-<li><strong>列标的逆序数  偶数则为正  奇数则为负</strong></li>
-<li>| a_11 | = a</li>
-</ul>
-</blockquote>
-<ul>
-<li>
-<p>第二种定义 -&gt; 按行展开 ==&gt;列标取标准排列，行标取排列的所有可能，从不同列不同行取出n个元素相乘，符号规定如下：</p>
-</li>
-<li>
-<p>第三种 既不按行也不按列 (极少用。。。) 符号 ==&gt; (-1)^(行标逆序数+列标逆序数)</p>
-</li>
-</ul>
-</li>
-<li>
-<p>易算行列式</p>
-<ul>
-<li>下三角 ==&gt; 主对角线线元素相乘   以主对角线的方向
-<ul>
-<li>山寨版的下三角 ==&gt;  以次对角线的方向  (   多一个符号:（-1）^n(n-1)/2   )</li>
-</ul>
-</li>
-<li>上三角 ==&gt; 主对角线线元素相乘   以主对角线的方向
-<ul>
-<li>山寨版的上三角 ==&gt;  以次对角线的方向  (多一个符号 同上)</li>
-</ul>
-</li>
-<li>对角型 ==&gt; 主对角线线元素相乘   以主对角线的方向
-<ul>
-<li>山寨版的对角 ==&gt;  以次对角线的方向    (多一个符号  同上)</li>
-<li></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>行列式性质</p>
-<ol>
-<li>
-<p>转置  ==&gt; 行变列  列变行  记为 D^T (Transformer)</p>
-<ul>
-<li>性质:行列式与它的转置行列式相等. D^T = D</li>
-<li>(D^T)^T = D</li>
-<li>对行成立的性质也对列成立</li>
-</ul>
-</li>
-<li></li>
-</ol>
-</li>
-<li>
-<p>范德蒙德（Vandermonde）行列式</p>
-</li>
-</ol>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=527354000&auto=0&height=66"></iframe>
-<h1>第二章 矩阵及其计算</h1>
-<h1>第三章 矩阵初等变换与线性方程组</h1>
-<h1>第四章 向量组的线性相关性</h1>
-<h1>第五章 相似矩阵及二次型</h1>
-<h1>第六章 线性空间与线性变换</h1>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> C# </tag>
+            
+            <tag> winframe </tag>
+            
+            <tag> 控件 </tag>
+            
+            <tag> 上位机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Chart控件</title>
+      <link href="/2022/08/02/Chart%E6%8E%A7%E4%BB%B6/"/>
+      <url>/2022/08/02/Chart%E6%8E%A7%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<h1>Chart控件</h1><h2 id="知识点">知识点</h2><ol><li>掌握tablelayoutpanel布局</li><li>掌握chart控件的配置（柱状图、折线图、饼图、雷达图等图形的配置、坐标点的配置等等）</li><li>掌握使用代码传入输入到图表</li><li>掌握实例化坐标点的方式传入数据</li><li>理解多个不同控件的的数据传入运用</li><li>多图形数据批量传入开发<ol><li>找到多个图表控件的规律</li><li>使用for循环进行批量运行代码</li><li>通过大控件的find()方法来寻找子控件的方式，注意find( , true)第二个参数要为true才能寻找控件中中的子控件</li><li>将找到的控件进行类型</li></ol></li></ol><h4 id="代码示例">代码示例</h4><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">timer1_Tick</span>(<span class="params"><span class="built_in">object</span> sender, EventArgs e</span>)</span></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">if</span> (chart2.Series[<span class="number">0</span>].Points.Count == <span class="number">10</span>)</span><br><span class="line">   &#123;</span><br><span class="line">    chart2.Series[<span class="number">0</span>].Points.RemoveAt(<span class="number">0</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   Random random = <span class="keyword">new</span> Random();</span><br><span class="line">   chart2.Series[<span class="number">0</span>].Points.Add(random.Next(<span class="number">0</span>, <span class="number">101</span>));</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="…敬请期待…">…敬请期待…</h2><h2 id="示例图">示例图</h2><p><img src="/img/9.png" alt="2"></p>]]></content>
+      
+      
       <categories>
-        <category>数学</category>
+          
+          <category> C# </category>
+          
       </categories>
-      <tags>
-        <tag>线性代数</tag>
-        <tag>数学</tag>
-        <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>西门子200SMART学习笔记</title>
-    <url>/2022/07/18/%E8%A5%BF%E9%97%A8%E5%AD%90200SMART%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1>第一章 PLC概述</h1>
-<h3 id="初级课程">初级课程</h3>
-<h4 id="传感器接线方式">传感器接线方式</h4>
-<blockquote>
-<p>棕色(BN)  +<br>
-蓝色(BL)  -<br>
-黑色(BK)  信号线</p>
-</blockquote>
-<ol>
-<li>NPN型 1M(M)接 +24V</li>
-<li>PNP型 1M(M)接 0V</li>
-</ol>
-<h4 id="PLC输出接线">PLC输出接线</h4>
-<!-- [![jvrvjI.png](https://s1.ax1x.com/2022/07/25/jvrvjI.png)](https://imgtu.com/i/jvrvjI) -->
-<p><img src="/img/1.png" alt="1"></p>
-<h4 id="电路图-—-梯形图">电路图 —&gt; 梯形图</h4>
-<ol>
-<li>过载 停止信号 输入端接常闭 ----&gt; 因为接了常闭  所以输入点有信号   程序中的常开点闭合   程序 中使用常开</li>
-<li>KA =====&gt; M  / V</li>
-<li>M:256个   M0.0  ~~  M31.7   32 * 8 = 256</li>
-<li>(ST60)V:163840个   V0.0 ~~ V12287.7   20480 * 8 = 163840</li>
-<li>L:零时存储区</li>
-</ol>
-<h4 id="运行中调试CPU">运行中调试CPU</h4>
-<ol>
-<li>调试   -----&gt;   运行中编辑</li>
-<li>F3向上插入程序段</li>
-</ol>
-<blockquote>
-<p>符号表无法上传 下载</p>
-</blockquote>
-<h4 id="编程思路">编程思路</h4>
-<blockquote>
-<p>对于不同要求，可以定义对应功能的 例如中间继电器M<br>
-然后使用  对应功能的中继  的触电去控制 电动机的运行/停止<br>
-学会 《四个流水灯》程序 思路   注意PLC的扫描顺序</p>
-</blockquote>
-<!-- >[![jvseuq.png](https://s1.ax1x.com/2022/07/25/jvseuq.png)](https://imgtu.com/i/jvseuq)
-> [![jvsmD0.png](https://s1.ax1x.com/2022/07/25/jvsmD0.png)](https://imgtu.com/i/jvsmD0) -->
-<blockquote>
-<p><img src="/img/3.png" alt="2"><br>
-<img src="/img/2.png" alt="3"></p>
-</blockquote>
-<h4 id="定时器-（分辨率-1ms-10ms-100ms）">定时器 （分辨率  1ms  10ms  100ms）</h4>
-<ul>
-<li>TON  接通延时定时器用于测定单独的时间间隔。</li>
-<li>TOF  断开延时定时器用于在 OFF（或 FALSE）条件之后延长一定时间间隔，例如冷却电机的延时。
-<ul>
-<li>当使能 从无到有  常开闭合 定时器不计时    当使能 从有到无  定时器开始计时   时间到  常开断开</li>
-<li>必须手动复位.</li>
-</ul>
-</li>
-<li>TONR ==保持==型接通延时定时器用于累积多个定时时间间隔的时间值。
-<ul>
-<li>保持：当使能 从有到无  当前值仍然存在   （常开 常闭都会保持）</li>
-<li>PLC断电 重启 当前值复位</li>
-</ul>
-</li>
-</ul>
-<h4 id="特殊功能寄存器">特殊功能寄存器</h4>
-<ol>
-<li>SM0.0  始终接通</li>
-<li>SM0.1  上电接通一次</li>
-</ol>
-<h4 id="震荡电路">震荡电路</h4>
-<ol>
-<li>脉冲…</li>
-<li>通断时间可调</li>
-</ol>
-<blockquote>
-<p>循环方法</p>
-<ol>
-<li>并联常开</li>
-<li>串联常闭     SM0.0  ==&gt;  T37(常闭)   ==&gt;  T37  (50-5S)    (定时器的自复位)</li>
-</ol>
-</blockquote>
-<ul>
-<li>不能 置位(255个)   T   C</li>
-</ul>
-<p><strong>震荡电路的两种写法</strong><br>
-1.这种通断时间一样长</p>
-<!-- [![jvsVvn.png](https://s1.ax1x.com/2022/07/25/jvsVvn.png)](https://imgtu.com/i/jvsVvn) -->
-<p><img src="/img/4.png" alt="4"><br>
-2.这种震荡电路  可以随意修改通断时间</p>
-<!-- [![jvsEgs.md.png](https://s1.ax1x.com/2022/07/25/jvsEgs.md.png)](https://imgtu.com/i/jvsEgs) -->
-<p><img src="/img/5.png" alt="5"></p>
-<h4 id="上升沿P-下降沿N">上升沿P/下降沿N</h4>
-<ul>
-<li>P 0 ===&gt;  1</li>
-<li>N 1 ===&gt;  0</li>
-</ul>
-<h4 id="计数器-C0-C255">计数器  C0  ~~  C255</h4>
-<ul>
-<li>普通计数器 ==(和PLC扫描周期有关系 )==<br>
-*
-<ul>
-<li>加计数器 CTU</li>
-<li>减计数器 CTD</li>
-<li>加/减计数器 CU/CD</li>
-</ul>
-</li>
-<li>高速计数器 ==(和PLC扫描周期没有关系 )==
-<ul>
-<li>HDEF  定义高速计数器</li>
-<li>HSC   高数计数器线圈  （可以理解为…）</li>
-<li>PLS   脉冲输出  最高100KHZ   eg：伺服驱动…</li>
-</ul>
-</li>
-</ul>
-<h3 id="中级课程">中级课程</h3>
-<h4 id="数据类型">数据类型</h4>
-<ol>
-<li>进制转换   略…</li>
-</ol>
-<blockquote>
-<p>==分类==</p>
-<ul>
-<li><strong>无符号(默认十进制正数)</strong>
-<ul>
-<li>BOOL 布尔型  IX.X  QX.X  <strong>MX.X  VX.X</strong>  SX.X  LX.X</li>
-<li>BYTE 字节型(0 ~ 255)  1byte = 8bit  IBX  QBX  MBX  VBX …</li>
-<li>Word 字型  (0 ~ 65535)  2byte = 16bit  IWX  QWX  MWX  VWX …</li>
-<li>DWord 双字型  (0 ~ 4294967295)  4byte = 32bit  IDX  QDX  MDX  VDX …</li>
-</ul>
-</li>
-<li><strong>有符号(默认十进制正/负数)</strong>
-<ul>
-<li>整数 INT  (-32768 ~ 32767)</li>
-<li>双整数 DINT (-2147483648 ~ 2147483647)</li>
-<li>浮点数 REAL (-3.4E+38 ~ 3.4E+38)</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<p>2.数据储存<br>
-高 —&gt; 低   eg(VW0): V0.7 ~~ V0.0<br>
-V1.7 ~~ V1.0</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> C# </tag>
+            
+            <tag> winframe </tag>
+            
+            <tag> 控件 </tag>
+            
+            <tag> 上位机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>线性代数</title>
+      <link href="/2022/07/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+      <url>/2022/07/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<h1>第一章 行列式</h1><h2 id="二阶三阶行列式">二阶三阶行列式</h2><ol><li><p>排列: 由 1 2 2 .。。。。n 组成的排列</p></li><li><p>逆序</p><ol><li>逆序数  -&gt; 逆序得总数</li></ol></li><li><p>对换：交换两个数</p><blockquote><ul><li>注: 一个排列经过一次对换奇偶性会改变    eg: 1 2 3 4 5 6 7 8 9 10 -&gt; 1 3 2 4 5 6 7 8 9 10</li><li>n级排列 奇偶个数各占一半</li></ul></blockquote></li></ol><h2 id="n阶行列式">n阶行列式</h2><ol><li><ul><li>第一种定义 -&gt; 按列展开 ==&gt;行标取标准排列，列标取排列的所有可能，从不同行不同列取出n个元素相乘，符号规定如下：</li></ul><blockquote><ul><li><strong>列标的逆序数  偶数则为正  奇数则为负</strong></li><li>| a_11 | = a</li></ul></blockquote><ul><li><p>第二种定义 -&gt; 按行展开 ==&gt;列标取标准排列，行标取排列的所有可能，从不同列不同行取出n个元素相乘，符号规定如下：</p></li><li><p>第三种 既不按行也不按列 (极少用。。。) 符号 ==&gt; (-1)^(行标逆序数+列标逆序数)</p></li></ul></li><li><p>易算行列式</p><ul><li>下三角 ==&gt; 主对角线线元素相乘   以主对角线的方向<ul><li>山寨版的下三角 ==&gt;  以次对角线的方向  (   多一个符号:（-1）^n(n-1)/2   )</li></ul></li><li>上三角 ==&gt; 主对角线线元素相乘   以主对角线的方向<ul><li>山寨版的上三角 ==&gt;  以次对角线的方向  (多一个符号 同上)</li></ul></li><li>对角型 ==&gt; 主对角线线元素相乘   以主对角线的方向<ul><li>山寨版的对角 ==&gt;  以次对角线的方向    (多一个符号  同上)</li><li></li></ul></li></ul></li><li><p>行列式性质</p><ol><li><p>转置  ==&gt; 行变列  列变行  记为 D^T (Transformer)</p><ul><li>性质:行列式与它的转置行列式相等. D^T = D</li><li>(D^T)^T = D</li><li>对行成立的性质也对列成立</li></ul></li><li></li></ol></li><li><p>范德蒙德（Vandermonde）行列式</p></li></ol><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=527354000&auto=0&height=66"></iframe><h1>第二章 矩阵及其计算</h1><h1>第三章 矩阵初等变换与线性方程组</h1><h1>第四章 向量组的线性相关性</h1><h1>第五章 相似矩阵及二次型</h1><h1>第六章 线性空间与线性变换</h1>]]></content>
+      
+      
       <categories>
-        <category>PLC</category>
+          
+          <category> 数学 </category>
+          
       </categories>
-      <tags>
-        <tag>西门子</tag>
-        <tag>PLC</tag>
-        <tag>SMART</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 线性代数 </tag>
+            
+            <tag> 数学 </tag>
+            
+            <tag> 考研 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>西门子200SMART学习笔记</title>
+      <link href="/2022/07/18/%E8%A5%BF%E9%97%A8%E5%AD%90200SMART%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2022/07/18/%E8%A5%BF%E9%97%A8%E5%AD%90200SMART%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h1>第一章 PLC概述</h1><h3 id="初级课程">初级课程</h3><h4 id="传感器接线方式">传感器接线方式</h4><blockquote><p>棕色(BN)  +<br>蓝色(BL)  -<br>黑色(BK)  信号线</p></blockquote><ol><li>NPN型 1M(M)接 +24V</li><li>PNP型 1M(M)接 0V</li></ol><h4 id="PLC输出接线">PLC输出接线</h4><!-- [![jvrvjI.png](https://s1.ax1x.com/2022/07/25/jvrvjI.png)](https://imgtu.com/i/jvrvjI) --><p><img src="/img/1.png" alt="1"></p><h4 id="电路图-—-梯形图">电路图 —&gt; 梯形图</h4><ol><li>过载 停止信号 输入端接常闭 ----&gt; 因为接了常闭  所以输入点有信号   程序中的常开点闭合   程序 中使用常开</li><li>KA =====&gt; M  / V</li><li>M:256个   M0.0  ~~  M31.7   32 * 8 = 256</li><li>(ST60)V:163840个   V0.0 ~~ V12287.7   20480 * 8 = 163840</li><li>L:零时存储区</li></ol><h4 id="运行中调试CPU">运行中调试CPU</h4><ol><li>调试   -----&gt;   运行中编辑</li><li>F3向上插入程序段</li></ol><blockquote><p>符号表无法上传 下载</p></blockquote><h4 id="编程思路">编程思路</h4><blockquote><p>对于不同要求，可以定义对应功能的 例如中间继电器M<br>然后使用  对应功能的中继  的触电去控制 电动机的运行/停止<br>学会 《四个流水灯》程序 思路   注意PLC的扫描顺序</p></blockquote><!-- >[![jvseuq.png](https://s1.ax1x.com/2022/07/25/jvseuq.png)](https://imgtu.com/i/jvseuq)> [![jvsmD0.png](https://s1.ax1x.com/2022/07/25/jvsmD0.png)](https://imgtu.com/i/jvsmD0) --><blockquote><p><img src="/img/3.png" alt="2"><br><img src="/img/2.png" alt="3"></p></blockquote><h4 id="定时器-（分辨率-1ms-10ms-100ms）">定时器 （分辨率  1ms  10ms  100ms）</h4><ul><li>TON  接通延时定时器用于测定单独的时间间隔。</li><li>TOF  断开延时定时器用于在 OFF（或 FALSE）条件之后延长一定时间间隔，例如冷却电机的延时。<ul><li>当使能 从无到有  常开闭合 定时器不计时    当使能 从有到无  定时器开始计时   时间到  常开断开</li><li>必须手动复位.</li></ul></li><li>TONR ==保持==型接通延时定时器用于累积多个定时时间间隔的时间值。<ul><li>保持：当使能 从有到无  当前值仍然存在   （常开 常闭都会保持）</li><li>PLC断电 重启 当前值复位</li></ul></li></ul><h4 id="特殊功能寄存器">特殊功能寄存器</h4><ol><li>SM0.0  始终接通</li><li>SM0.1  上电接通一次</li></ol><h4 id="震荡电路">震荡电路</h4><ol><li>脉冲…</li><li>通断时间可调</li></ol><blockquote><p>循环方法</p><ol><li>并联常开</li><li>串联常闭     SM0.0  ==&gt;  T37(常闭)   ==&gt;  T37  (50-5S)    (定时器的自复位)</li></ol></blockquote><ul><li>不能 置位(255个)   T   C</li></ul><p><strong>震荡电路的两种写法</strong><br>1.这种通断时间一样长</p><!-- [![jvsVvn.png](https://s1.ax1x.com/2022/07/25/jvsVvn.png)](https://imgtu.com/i/jvsVvn) --><p><img src="/img/4.png" alt="4"><br>2.这种震荡电路  可以随意修改通断时间</p><!-- [![jvsEgs.md.png](https://s1.ax1x.com/2022/07/25/jvsEgs.md.png)](https://imgtu.com/i/jvsEgs) --><p><img src="/img/5.png" alt="5"></p><h4 id="上升沿P-下降沿N">上升沿P/下降沿N</h4><ul><li>P 0 ===&gt;  1</li><li>N 1 ===&gt;  0</li></ul><h4 id="计数器-C0-C255">计数器  C0  ~~  C255</h4><ul><li>普通计数器 ==(和PLC扫描周期有关系 )==<br>*<ul><li>加计数器 CTU</li><li>减计数器 CTD</li><li>加/减计数器 CU/CD</li></ul></li><li>高速计数器 ==(和PLC扫描周期没有关系 )==<ul><li>HDEF  定义高速计数器</li><li>HSC   高数计数器线圈  （可以理解为…）</li><li>PLS   脉冲输出  最高100KHZ   eg：伺服驱动…</li></ul></li></ul><h3 id="中级课程">中级课程</h3><h4 id="数据类型">数据类型</h4><ol><li>进制转换   略…</li></ol><blockquote><p>==分类==</p><ul><li><strong>无符号(默认十进制正数)</strong><ul><li>BOOL 布尔型  IX.X  QX.X  <strong>MX.X  VX.X</strong>  SX.X  LX.X</li><li>BYTE 字节型(0 ~ 255)  1byte = 8bit  IBX  QBX  MBX  VBX …</li><li>Word 字型  (0 ~ 65535)  2byte = 16bit  IWX  QWX  MWX  VWX …</li><li>DWord 双字型  (0 ~ 4294967295)  4byte = 32bit  IDX  QDX  MDX  VDX …</li></ul></li><li><strong>有符号(默认十进制正/负数)</strong><ul><li>整数 INT  (-32768 ~ 32767)</li><li>双整数 DINT (-2147483648 ~ 2147483647)</li><li>浮点数 REAL (-3.4E+38 ~ 3.4E+38)</li></ul></li></ul></blockquote><p>2.数据储存<br>高 —&gt; 低   eg(VW0): V0.7 ~~ V0.0<br>V1.7 ~~ V1.0</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> PLC </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 西门子 </tag>
+            
+            <tag> PLC </tag>
+            
+            <tag> SMART </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
