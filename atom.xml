@@ -6,7 +6,7 @@
   <link href="https://www.blogsun.top/atom.xml" rel="self"/>
   
   <link href="https://www.blogsun.top/"/>
-  <updated>2022-08-04T01:40:19.330Z</updated>
+  <updated>2022-08-04T02:10:08.018Z</updated>
   <id>https://www.blogsun.top/</id>
   
   <author>
@@ -21,21 +21,12 @@
     <link href="https://www.blogsun.top/2022/08/03/%E5%A4%9A%E7%AA%97%E4%BD%93toolStripContainer%E5%AE%B9%E5%99%A8%E5%BC%80%E5%8F%91%E5%92%8C%E6%82%AC%E6%B5%AE/"/>
     <id>https://www.blogsun.top/2022/08/03/%E5%A4%9A%E7%AA%97%E4%BD%93toolStripContainer%E5%AE%B9%E5%99%A8%E5%BC%80%E5%8F%91%E5%92%8C%E6%82%AC%E6%B5%AE/</id>
     <published>2022-08-03T12:25:35.000Z</published>
-    <updated>2022-08-04T01:40:19.330Z</updated>
+    <updated>2022-08-04T02:10:08.018Z</updated>
     
     <content type="html"><![CDATA[<h2 id="方式一">方式一</h2><ul><li>修改窗体的 TopLevel = false;</li><li>指定窗体的父窗体</li><li>显示窗体</li></ul><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">Form frm1,frm2;</span><br><span class="line"><span class="keyword">private</span> <span class="keyword">void</span> 密码修改ToolStripMenuItem_Click(<span class="built_in">object</span> sender, EventArgs e)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (frm1 == <span class="literal">null</span> || frm1.IsDisposed == <span class="literal">true</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//判断窗体对象是否被创建是否为null  frm1.IsDisposed判断对象是否以释放 ==&gt; 注: 窗体关闭后 仍然存在，所以要使用此条件</span></span><br><span class="line">        frm1 = <span class="keyword">new</span> 密码修改();</span><br><span class="line">        frm1.TopLevel = <span class="literal">false</span>; <span class="comment">//关闭顶级窗口类型</span></span><br><span class="line">        frm1.Parent = toolStripContainer1.ContentPanel; <span class="comment">//指定窗体的父容器</span></span><br><span class="line">        frm1.Show(); <span class="comment">//显示窗体</span></span><br><span class="line">    &#125;            </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="方式二">方式二</h2><ul><li>使用mdi方法解决<ol><li>指定窗体的MDI父窗体为当前窗体  frm2.MdiParent = this;</li><li>在设计界面将 主窗体的 iSMdiContainer属性设置为true</li></ol></li></ul><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Form frm1,frm2;</span><br><span class="line"><span class="keyword">private</span> <span class="keyword">void</span> 密码修改ToolStripMenuItem_Click(<span class="built_in">object</span> sender, EventArgs e)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (frm1 == <span class="literal">null</span> || frm1.IsDisposed == <span class="literal">true</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//判断窗体对象是否被创建是否为null  frm1.IsDisposed判断对象是否以释放 ==&gt; 注: 窗体关闭后 仍然存在，所以要使用此条件</span></span><br><span class="line">        frm1 = <span class="keyword">new</span> 密码修改();</span><br><span class="line">        frm2.MdiParent = <span class="keyword">this</span>; <span class="comment">//this代表当前窗体 (本质上指得是当前类)</span></span><br><span class="line">        <span class="comment">//frm1.TopLevel = false; //关闭顶级窗口类型</span></span><br><span class="line">        frm1.Parent = toolStripContainer1.ContentPanel; <span class="comment">//指定窗体的父容器</span></span><br><span class="line">        frm1.Show(); <span class="comment">//显示窗体</span></span><br><span class="line">    &#125;            </span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h2 id=&quot;方式一&quot;&gt;方式一&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;修改窗体的 TopLevel = false;&lt;/li&gt;
-&lt;li&gt;指定窗体的父窗体&lt;/li&gt;
-&lt;li&gt;显示窗体&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&quot;highlight c#&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;t</summary>
-      
+    <summary type="html">多窗体应用</summary>
     
     
     
